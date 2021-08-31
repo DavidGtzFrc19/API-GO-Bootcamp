@@ -1,1 +1,24 @@
+html, body{
+    height:100%;
+    margin:5px;
+  }
 
+.container{
+    background-color:#53a865;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+
+select{
+    display: block;
+    font-size: 16px;
+    width: 200px;
+}
