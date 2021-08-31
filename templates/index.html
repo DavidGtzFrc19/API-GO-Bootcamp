@@ -1,1 +1,30 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>GO Bootcamp</h1>
+        <h3>Second EndPoint</h3>
+        <p>You can consult the temperature (°C) in these cities on real time:</p>
+        <form method="POST" action="/temperature">
+            <!-- Zip Code : <input type="text" name="zip"> -->
+            <select name="zip" id="">
+                <option value="88901">Las Vegas</option>
+                <option value="90089">Los Angeles</option>
+                <option value="33190">Miami</option>
+                <option value="10048">New York</option>
+                <option value="85054">Phoenix</option>
+                <option value="20020">Washington</option>
+            </select>
+            <br>
+            <input type="submit" value="Go...">
+        </form>
+    </div>
+</body>
+</html>
