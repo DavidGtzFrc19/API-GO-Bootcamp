@@ -1,4 +1,4 @@
-# Welcome to my Deliverable for GO Bootcamp
+# Welcome to my Deliverable for the GO Bootcamp
 
 ## Table of Contents
 1. [General Info](#General Info)
